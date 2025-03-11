@@ -4,7 +4,7 @@ public class CurrencyConverter {
     public static void main(String[] args) {
         JFrame frame = new JFrame("Currency Converter");
         frame.setSize(300, 200);
-        frame.setLayout(new FlowLayout());
+        frame.setLayout(new GridLayout(2,2,5,5));
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         JTextField bdtField = new JTextField(10);
